@@ -1,0 +1,11 @@
+body {
+    text-decoration: none;
+    color: black;
+    cursor: auto;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
