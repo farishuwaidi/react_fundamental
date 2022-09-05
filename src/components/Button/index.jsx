@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-const Button = ({ type, id ,title , onClick}) => {
+const Button = ({ type, id, title, onClick }) => {
   return (
     <Fragment>
       <button
@@ -8,7 +8,9 @@ const Button = ({ type, id ,title , onClick}) => {
         type={id}
         id={type}
         onClick={onClick}
-      >{title}</button>
+      >
+        {title}
+      </button>
     </Fragment>
   );
 };

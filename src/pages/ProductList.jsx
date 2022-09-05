@@ -21,7 +21,7 @@ const productList = () => {
         <div className="input-group mb-3">
           <Input
             type="text"
-            placeholder="Product"
+            // placeholder="Product"
             id="product1"
             name="product1"
             value={product}
@@ -35,11 +35,6 @@ const productList = () => {
           />
         </div>
       </div>
-      <ul>
-        {products.map((item)=>
-            <li>{item}</li>
-        )}
-      </ul>
     </div>
   );
 };
